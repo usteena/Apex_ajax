@@ -52,6 +52,13 @@
 
         .posts-list {
           overflow: scroll;
+
+          .post-link {
+            &,
+            &:hover {
+              border: none;
+            }
+          }
         }
       }
 
